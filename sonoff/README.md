@@ -1,3 +1,6 @@
+Sonoff MINI, BASIC R2, 4CH R2 - `sonoff_8285_v1.5.bin`  
+Sonoff S20, S26 - `sonoff_8266_v1.5.bin`  
+
 Moduł uruchomi się w trybie konfiguracji, rozgłaszając swoją sieć `ESP_XXXXXX`, hasło: `configpass`.
 
 Po połączeniu z siecią wchodzimy w przeglądarce na adres: **192.168.4.1**. Wypełniamy wszystkie pola i wybieramy wersję urządzenia
