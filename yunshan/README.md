@@ -16,3 +16,9 @@ Miganie diody (ms):
 - 150/1200 - tryb SUPLA, brak połączenia z serwerem,
 - 250/250 - brak połączenia z siecią w trybie OTA i SUPLA,
 - ciągłe świecenie - tryb SUPLA, połączony z serwerem (możliwe wyłączenie)
+---
+- crystalFreq 26M
+- spiSpeed 40MHz
+- spiMode DOUT 0x0
+- baudRate 115200
+- flashSize 8Mbit (1MByte)
