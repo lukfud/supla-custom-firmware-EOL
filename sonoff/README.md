@@ -20,6 +20,10 @@ Miganie diody (ms):
 - 250/250 - brak połączenia z siecią w trybie OTA i SUPLA,
 - ciągłe świecenie - tryb SUPLA, połączony z serwerem (możliwe wyłączenie)
 
+Przejście do konfiguracji (config button):
+- monostabilny: wciskamy, przytrzymujemy min. 7s (dioda zacznie migać jak w trybie konfiguracji), puszczamy
+- bistabilny: w czasie 7s przełączamy 7 razy (początkowa pozycja nie jest istotna)
+
 ---
 - crystalFreq 26M
 - spiSpeed 40MHz
