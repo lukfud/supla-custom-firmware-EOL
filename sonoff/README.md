@@ -22,7 +22,8 @@ Z aplikacji można ustawić żywotność oraz resetować licznik.
 ```
 
 opcjonalnie ustawiamy nazwę, ilość wirtualnych przekaźników i domyślny stan po utracie i przywruceniu zasilania. Zapisujemy, klikając SAVE and REBOOT.
-**`Każda zmiana typu przekaźnika wymaga usunięcia urządzenia z Cloud`**
+
+## **`Każda zmiana typu przekaźnika wymaga usunięcia urządzenia z Cloud`**
 
 Miganie diody (ms):
 - 100/150 - tryb konfiguracji,
