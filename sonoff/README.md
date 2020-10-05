@@ -16,11 +16,13 @@ Wchodzimy w przeglądarce na adres, tym razem przydzielony przez router (dane lo
 Po odświeżeniu strony, dla każdego przekaźnika ustawiamy typ: RELAY albo LIGHT RELAY
 ```
 LightRelay to przekaźnik dedykowany do oświetlenia z opcją programowania czasu żywotności źródła światła.  
-Taki kanał po kliknięciu w aplikacji na ikonkę (i) pozwala zobaczyć dodatkowe informacje związane z żywotnością źródła światła oraz łącznym czasem włączenia.  
+Taki kanał po kliknięciu w aplikacji na ikonkę (i) pozwala zobaczyć dodatkowe informacje związane z żywotnością  
+źródła światła oraz łącznym czasem włączenia.  
 Z aplikacji można ustawić żywotność oraz resetować licznik.
 ```
 
 opcjonalnie ustawiamy nazwę, ilość wirtualnych przekaźników i domyślny stan po utracie i przywruceniu zasilania. Zapisujemy, klikając SAVE and REBOOT.
+**`Każda zmiana typu przekaźnika wymaga usunięcia urządzenia z Cloud`**
 
 Miganie diody (ms):
 - 100/150 - tryb konfiguracji,
