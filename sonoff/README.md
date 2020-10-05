@@ -1,5 +1,5 @@
-Sonoff MINI, BASIC R2, 4CH R2 - `sonoff_8285_v1.5.bin`  
-Sonoff S20, S26 - `sonoff_8266_v1.5.bin`  
+Sonoff MINI, BASIC R2, DUAL, 2CH, 4CH R2 - `sonoff_8285_v1.6.bin`  
+Sonoff S20, S26 - `sonoff_8266_v1.6.bin`  
 
 Moduł uruchomi się w trybie konfiguracji, rozgłaszając swoją sieć `ESP_XXXXXX`, hasło: `configpass`.
 
@@ -11,7 +11,14 @@ Server, Email - dane SUPLI
 ```
 i klikamy SAVE to EEPROM - moduł uruchomi się w trybie OTA (jeśli ESP nie podłączy się do naszej sieci, przejdzie ponownie w tryb konfiguracji).
 
-Wchodzimy w przeglądarce na adres, tym razem przydzielony przez router (dane logowania z konfiguracji) i klikamy SWITCH TO SUPLA, Po odświeżeniu strony, opcjonalnie ustawiamy nazwę, ilość wirtualnych przekaźników i pamięć stanu. Zapisujemy, klikając SAVE and REBOOT.
+Wchodzimy w przeglądarce na adres, tym razem przydzielony przez router (dane logowania z konfiguracji) i klikamy SWITCH TO SUPLA, 
+
+Po odświeżeniu strony, dla każdego przekaźnika ustawiamy typ: RELAY albo LIGHT RELAY
+```
+LightRelay to przekaźnik dedykowany do oświetlenia z opcją programowania czasu żywotności źródła światła. Taki kanał po kliknięciu w aplikacji na ikonkę (i) pozwala zobaczyć dodatkowe informacje związane z żywotnością źródła światła oraz łącznym czasem włączenia. Z aplikacji można ustawić żywotność oraz resetować licznik.
+```
+
+opcjonalnie ustawiamy nazwę, ilość wirtualnych przekaźników i domyślny stan po utracie i przywruceniu zasilania. Zapisujemy, klikając SAVE and REBOOT.
 
 Miganie diody (ms):
 - 100/150 - tryb konfiguracji,
