@@ -6,7 +6,7 @@ Moduł uruchomi się w trybie konfiguracji, rozgłaszając swoją sieć `ESP_XXX
 Po połączeniu z siecią wchodzimy w przeglądarce na adres: **192.168.4.1**. Wypełniamy wszystkie pola
 ```
 Username, Password - dowolne
-SSID, WPA - dane neszej sieci WiFi
+SSID, WPA - dane naszej sieci WiFi
 Server, Email - dane SUPLI
 ```
 wybieramy wersję urządzenia i klikamy SAVE to EEPROM - moduł uruchomi się w trybie OTA (jeśli ESP nie podłączy się do naszej sieci, przejdzie ponownie w tryb konfiguracji).
