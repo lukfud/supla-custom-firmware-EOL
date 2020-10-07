@@ -1,24 +1,26 @@
-Moduł uruchomi się w trybie konfiguracji, rozgłaszając swoją sieć `ESP_XXXXXX`, hasło: `configpass`.
+Moduł uruchomi się w trybie konfiguracji, rozgłaszając swoją sieć `ESP-XXXXXX`, hasło: `configpass`.
 
-Po połączeniu z siecią wchodzimy w przeglądarce na adres: **192.168.4.1**. Wypełniamy wszystkie pola i wybieramy wersję urządzenia
+Po połączeniu z siecią wchodzimy w przeglądarce na adres: **192.168.4.1**. Wypełniamy wszystkie pola
 ```
-Username, Password - dowolne
-SSID, WPA - dane neszej sieci WiFi
-Server, Email - dane SUPLI
+nazwa użytkownika, hasło użytkownika - dowolne
+nazwa sieci WiFi, hasło - dane naszej sieci WiFi
+serwer Sulpi, adres email - dane SUPLI
 ```
-i klikamy SAVE to EEPROM - moduł uruchomi się w trybie OTA (jeśli ESP nie podłączy się do naszej sieci, przejdzie ponownie w tryb konfiguracji).
+i klikamy ZAPISZ I URUCHOM PONOWNIE - moduł uruchomi się w trybie OTA (jeśli ESP nie podłączy się do naszej sieci, przejdzie ponownie w tryb konfiguracji). Po odświeżeniu strony pojawi się okno logowania (dane z konfiguracji). Zapisujemy adres IP przydzielony urządzeniu z naszej sieci lokalnej i klikamy PRZEŁĄCZ DO SUPLI.  
+(Urządzenie na chwilę przestaje udostępniac sieć podczas ponownego uruchomiania. Jeśli stona nie załaduje się poprawnie, ponownie łączymy się z udostępnianą siecią).
 
-Wchodzimy w przeglądarce na adres, tym razem przydzielony przez router (dane logowania z konfiguracji) i klikamy SWITCH TO SUPLA, Po odświeżeniu strony, opcjonalnie ustawiamy nazwę i wybieramy typ działania przycisków. Zapisujemy, klikając SAVE and REBOOT.
+W następnym kroku wchodzimy w przeglądarce na adres z naszej sieci lokalnej (zapisany wcześniej), ponownie podajemy dane logowania. Opcjonalnie ustawiamy nazwę urządzenia i reakcję przycisków. Zapisujemy, klikając ZAPISZ I URUCHOM PONOWNIE.
 
 Miganie diody (ms):
 - 100/150 - tryb konfiguracji,
 - 1200/150 - tryb OTA,
 - 150/1200 - tryb SUPLA, brak połączenia z serwerem,
 - 250/250 - brak połączenia z siecią w trybie OTA i SUPLA,
-- ciągłe świecenie - tryb SUPLA, połączony z serwerem (możliwe wyłączenie)
+- ciągłe świecenie - tryb SUPLA, status "Zarejestrowany i gotowy" (możliwe wyłączenie)
 
-Przejście do konfiguracji (config button):
-- wciskamy UP, przytrzymujemy min. 7s (dioda zacznie migać jak w trybie konfiguracji), puszczamy
+Przejście do konfiguracji (tylko w trybie SUPLA):
+- przycisk monostabilny: wciskamy, przytrzymujemy min. 7s (dioda zacznie migać jak w trybie konfiguracji), puszczamy
+- przycisk bistabilny: w czasie 7s przełączamy 7 razy (początkowa pozycja nie jest istotna)
 
 ---
 - crystalFreq 26M
