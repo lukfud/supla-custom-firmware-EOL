@@ -7,7 +7,7 @@ nazwa sieci WiFi, hasło - dane naszej sieci WiFi
 serwer Sulpi, adres email - dane SUPLI
 ```
 i klikamy ZAPISZ I URUCHOM PONOWNIE - moduł uruchomi się w trybie OTA (jeśli ESP nie podłączy się do naszej sieci, przejdzie ponownie w tryb konfiguracji). Po odświeżeniu strony pojawi się okno logowania (dane z konfiguracji). Zapisujemy adres IP przydzielony urządzeniu z naszej sieci lokalnej i klikamy PRZEŁĄCZ DO SUPLI.  
-(Urządzenie na chwilę przestaje udostępniac sieć podczas ponownego uruchomiania. Jeśli stona nie załaduje się poprawnie, ponownie łączymy się z udostępnianą siecią).
+(Urządzenie na chwilę przestaje udostępniac sieć podczas ponownego uruchomienia. Jeśli stona nie załaduje się poprawnie, ponownie łączymy się z udostępnianą siecią).
 
 W następnym kroku wchodzimy w przeglądarce na adres z naszej sieci lokalnej (zapisany wcześniej), ponownie podajemy dane logowania. Opcjonalnie ustawiamy nazwę urządzenia i reakcję przycisków. Zapisujemy, klikając ZAPISZ I URUCHOM PONOWNIE.
 
