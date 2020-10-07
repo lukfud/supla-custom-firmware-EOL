@@ -1,17 +1,18 @@
-Sonoff MINI, BASIC R2, DUAL, 2CH, 4CH R2 - `sonoff_8285_v1.6.bin`  
-Sonoff S20, S26 - `sonoff_8266_v1.6.bin`  
+Sonoff MINI, BASIC R2, DUAL, 2CH, 4CH R2 - `sonoff_8285_v1.7_PL.bin`  
+Sonoff S20, S26 - `sonoff_8266_v1.7_PL.bin`  
 
-Moduł uruchomi się w trybie konfiguracji, rozgłaszając swoją sieć `ESP_XXXXXX`, hasło: `configpass`.
+Moduł uruchomi się w trybie konfiguracji, rozgłaszając swoją sieć `ESP-XXXXXX`, hasło: `configpass`.
 
 Po połączeniu z siecią wchodzimy w przeglądarce na adres: **192.168.4.1**. Wypełniamy wszystkie pola
 ```
-Username, Password - dowolne
-SSID, WPA - dane naszej sieci WiFi
-Server, Email - dane SUPLI
+nazwa użytkownika, hasło użytkownika - dowolne
+nazwa sieci WiFi, hasło - dane naszej sieci WiFi
+serwer Sulpi, adres email - dane SUPLI
 ```
-wybieramy wersję urządzenia i klikamy SAVE to EEPROM - moduł uruchomi się w trybie OTA (jeśli ESP nie podłączy się do naszej sieci, przejdzie ponownie w tryb konfiguracji).
+wybieramy wersję urządzenia i klikamy ZAPISZ I URUCHOM PONOWNIE - moduł uruchomi się w trybie OTA (jeśli ESP nie podłączy się do naszej sieci, przejdzie ponownie w tryb konfiguracji). Po odświeżeniu strony pojawi się okno logowania (dane z konfiguracji). Zapisujemy adres IP przydzielony urządzeniu z naszej sieci lokalnej i klikamy PRZEŁĄCZ DO SUPLI.  
+(Urządzenie na chwilę przestaje udostępniac sieć podczas ponownego uruchomiania. Jeśli stona nie załaduje się poprawnie, ponownie łączymy się z udostępnianą siecią).
 
-Wchodzimy w przeglądarce na adres, tym razem przydzielony przez router (dane logowania z konfiguracji) i klikamy SWITCH TO SUPLA, 
+Wchodzimy w przeglądarce na adres, tym razem zapisany wcześniej (dane logowania z konfiguracji) i klikamy SWITCH TO SUPLA, 
 
 Po odświeżeniu strony, dla każdego przekaźnika ustawiamy typ: RELAY albo LIGHT RELAY
 ```
