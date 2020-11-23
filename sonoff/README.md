@@ -35,8 +35,8 @@ Miganie diody (ms):
 - ciągłe świecenie - tryb SUPLA, status "Zarejestrowany i gotowy" (możliwe wyłączenie)
 
 Przejście do konfiguracji (tylko w trybie SUPLA):
-- przycisk monostabilny: wciskamy, przytrzymujemy min. 7s (dioda zacznie migać jak w trybie konfiguracji), puszczamy
-- przycisk bistabilny: w czasie 7s przełączamy 7 razy (początkowa pozycja nie jest istotna)
+- przycisk monostabilny: wciskamy, przytrzymujemy min. 5s (dioda zacznie migać jak w trybie konfiguracji), puszczamy - czas ten możemy zmienić na inną wartość
+- przycisk bistabilny: przełączamy 5 razy (początkowa pozycja nie jest istotna) - ilość przełączeń możemy zmienić
 
 ---
 - crystalFreq 26M
