@@ -34,4 +34,4 @@ zwieramy pin0 z masą, przytrzymujemy min. 5s (dioda zacznie migać jak w trybie
 - spiSpeed 40MHz
 - spiMode DOUT 0x0
 - baudRate 115200
-- flashSize 8Mbit (4MByte)
+- flashSize 32Mbit (4MByte)
