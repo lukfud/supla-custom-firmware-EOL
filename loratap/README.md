@@ -1,4 +1,4 @@
-Moduł uruchomi się w trybie konfiguracji, rozgłaszając swoją sieć `ESP-XXXXXX`, hasło: `configpass`.
+Moduł uruchomi się w trybie konfiguracji, rozgłaszając swoją sieć `ESP-XXXXXX`.
 
 Po połączeniu z siecią wchodzimy w przeglądarce na adres: **192.168.4.1**. Wypełniamy wszystkie pola
 ```
@@ -19,8 +19,7 @@ Miganie diody (ms):
 - ciągłe świecenie - tryb SUPLA, status "Zarejestrowany i gotowy" (możliwe wyłączenie)
 
 Przejście do konfiguracji (tylko w trybie SUPLA):
-- przycisk monostabilny: wciskamy, przytrzymujemy min. 7s (dioda zacznie migać jak w trybie konfiguracji), puszczamy
-- przycisk bistabilny: w czasie 7s przełączamy 7 razy (początkowa pozycja nie jest istotna)
+- klikamy 5 razy przyciskiem w górę (ilość kliknięć można zmienić)
 
 ---
 - crystalFreq 26M
