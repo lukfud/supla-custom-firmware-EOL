@@ -34,7 +34,7 @@ Miganie diody (ms):
 - ciągłe świecenie - tryb SUPLA, status "Zarejestrowany i gotowy" (możliwe wyłączenie)
 
 Przejście do konfiguracji (tylko w trybie SUPLA):
-- włączamy/przełączamy 5 razy (początkowa pozycja nie jest istotna) - ilość włączeń/przełączeń możemy zmienić
+- włączamy/przełączamy 7 razy (początkowa pozycja nie jest istotna) - ilość włączeń/przełączeń możemy zmienić
 
 ---
 - crystalFreq 26M
