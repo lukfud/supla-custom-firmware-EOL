@@ -11,7 +11,6 @@ wybieramy wersję urządzenia, opcjonalnie kontrolę LED
 Ustawiając kontrolę LED na TAK będzie można włączać/wyłączać diodę statusu z app/Cloud  
 poprzez dodatkowy wirtualny przekaźnik.
 ```
-
 i klikamy ZAPISZ I URUCHOM PONOWNIE - moduł uruchomi się w trybie OTA (jeśli ESP nie podłączy się do naszej sieci, przejdzie ponownie w tryb konfiguracji). Po odświeżeniu strony pojawi się okno logowania (dane z konfiguracji). Zapisujemy adres IP przydzielony urządzeniu z naszej sieci lokalnej i klikamy PRZEŁĄCZ DO SUPLI.  
 (Urządzenie na chwilę przestaje udostępniac sieć podczas ponownego uruchomienia. Jeśli strona nie załaduje się poprawnie, ponownie łączymy się z udostępnianą siecią).
 
@@ -35,8 +34,7 @@ Miganie diody (ms):
 - ciągłe świecenie - tryb SUPLA, status "Zarejestrowany i gotowy" (możliwe wyłączenie)
 
 Przejście do konfiguracji (tylko w trybie SUPLA):
-- przycisk monostabilny: wciskamy, przytrzymujemy min. 5s (dioda zacznie migać jak w trybie konfiguracji), puszczamy - czas ten możemy zmienić na inną wartość
-- przycisk bistabilny: przełączamy 5 razy (początkowa pozycja nie jest istotna) - ilość przełączeń możemy zmienić
+- włączamy/przełączamy 5 razy (początkowa pozycja nie jest istotna) - ilość włączeń/przełączeń możemy zmienić
 
 ---
 - crystalFreq 26M
