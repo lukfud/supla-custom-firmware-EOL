@@ -6,12 +6,6 @@ nazwa użytkownika, hasło użytkownika - dowolne
 nazwa sieci WiFi, hasło - dane naszej sieci WiFi
 serwer Sulpi, adres email - dane SUPLI
 ```
-opcjonalnie włączamy kontrolę LED
-```
-Ustawiając kontrolę LED na TAK będzie można włączać/wyłączać diodę statusu z app/Cloud  
-poprzez dodatkowy wirtualny przekaźnik.
-```
-
 i klikamy ZAPISZ I URUCHOM PONOWNIE - moduł uruchomi się w trybie OTA (jeśli ESP nie podłączy się do naszej sieci, przejdzie ponownie w tryb konfiguracji). Po odświeżeniu strony pojawi się okno logowania (dane z konfiguracji).
 
 Na tej stronie mamy możliwość skalibrowania czujnika. W odpowiednie pola wpisujemy, napięcie jakie mamy w gnizdku (230V) i moc urzadzenia, które podłączone jest na potrzeby kalibracji, np. czjanika elektrycznego (2200W) i klkikamy KALIBRACJA.
@@ -26,7 +20,7 @@ Taki kanał po kliknięciu w aplikacji na ikonkę (i) pozwala zobaczyć dodatkow
 Z aplikacji można ustawić żywotność oraz resetować licznik.
 ```
 
-opcjonalnie ustawiamy nazwę urządzenia i domyślny stan po utracie i przywruceniu zasilania. Zapisujemy, klikając ZAPISZ I URUCHOM PONOWNIE.
+opcjonalnie ustawiamy nazwę urządzenia i domyślny stan po utracie i przywruceniu zasilania. Opcjonalnie ustawiamy warunki dla wyzwalaczy akcji. Zapisujemy, klikając ZAPISZ I URUCHOM PONOWNIE.
 
 **`Każda zmiana typu przekaźnika bądź włączenie/wyłączenie kontroli LED wymaga usunięcia urządzenia z Cloud`**
 
