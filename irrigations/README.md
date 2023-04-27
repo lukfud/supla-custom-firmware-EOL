@@ -1,3 +1,8 @@
+```
+Plik: irrigation_esp32_v23.04.4.bin - płytki 8 i 10 przekaźników,
+      irrigation_esp32-s3_v23.04.4.bin - 14 przekaźników
+```
+
 ## `23.04.4` (2023-04-15)
 
 - dodana możliwość ustawienia histerezy auto pazuy
