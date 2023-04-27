@@ -1,5 +1,3 @@
-CHANGELOG.MD
-
 ## `23.04.4` (2023-04-15)
 
 - dodana możliwość ustawienia histerezy auto pazuy
