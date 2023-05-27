@@ -3,6 +3,11 @@ Plik: irrigation_esp32_v23.04.4.bin - płytki 8 i 10 przekaźników,
       irrigation_esp32-s3_v23.04.4.bin - 14 przekaźników
 ```
 
+## `23.05.2` (2023-05-27)
+
+- dodany licznik impulsów (jako opcja w konfiguracji, po włączeniu należy usunąć urządzenie z Cloud, inaczej pojawi się konflikt kanałów)
+- rozszerzenie autodozowania na poszczególne sekcje (wcześniej tylko przy cyklu automatycznym)
+
 ## `23.04.4` (2023-04-15)
 
 - dodana możliwość ustawienia histerezy auto pazuy
