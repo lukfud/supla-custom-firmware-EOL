@@ -3,6 +3,13 @@ Plik: irrigation_esp32_v23.04.4.bin - płytki 8 i 10 przekaźników,
       irrigation_esp32-s3_v23.04.4.bin - 14 przekaźników
 ```
 
+## `23.07.5` (2023-07-13)
+
+- aktualizacja biblioteki SuplaDevice, w tym:
+_poprawka licznika impulsów_
+_dodanie timer'ów dla przekaźników_
+
+
 ## `23.05.2` (2023-05-27)
 
 - dodany licznik impulsów (jako opcja w konfiguracji, po włączeniu należy usunąć urządzenie z Cloud, inaczej pojawi się konflikt kanałów)
