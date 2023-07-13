@@ -5,10 +5,8 @@ Plik: irrigation_esp32_v23.04.4.bin - płytki 8 i 10 przekaźników,
 
 ## `23.07.5` (2023-07-13)
 
-- aktualizacja biblioteki SuplaDevice, w tym:
-_poprawka licznika impulsów_
-_dodanie timer'ów dla przekaźników_
-
+- aktualizacja biblioteki SuplaDevice, w tym: _poprawka licznika impulsów, dodanie timer'ów dla przekaźników_
+- dodany w ustawieniach wybór ilości powtórzeń cyklu (bazowy czas sekcji jest proporcjonalnie dzielony na ilość powtórzeń)
 
 ## `23.05.2` (2023-05-27)
 
