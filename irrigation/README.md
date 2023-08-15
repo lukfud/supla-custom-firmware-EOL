@@ -1,7 +1,12 @@
 ```
-Plik: irrigation_esp32_v23.04.4.bin - płytki 8 i 10 przekaźników,
-      irrigation_esp32-s3_v23.04.4.bin - 14 przekaźników
+Plik: irrigation_esp32_v23.08.4.bin - płytki 8 i 10 przekaźników,
+      irrigation_esp32-s3_v23.08.4.bin - 14 przekaźników
 ```
+
+## `23.08.4` (2023-08-15)
+
+- poprawki błędów
+- rozszerzenie na wszystkie sekcje w cyklu powiadomienia o braku przepływu
 
 ## `23.07.5` (2023-07-13)
 
