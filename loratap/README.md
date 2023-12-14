@@ -1,3 +1,7 @@
+## `23.12.14`
+
+- aktualizacja biblioteki [SuplaDevice](https://github.com/SUPLA/supla-device/blob/main/CHANGELOG.md#2312-2023-12-05)
+
 ## `23.10.08`
 
 - aktualizacja biblioteki [SuplaDevice](https://github.com/SUPLA/supla-device/blob/main/CHANGELOG.md#2310-2023-10-02)
