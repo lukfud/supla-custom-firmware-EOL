@@ -1,3 +1,5 @@
+## Ta wersja nie będzie już aktualizowana. [Zapraszam do nowej](https://github.com/lukfud/SuplaCustomFirmware/tree/main/LORATAP)
+
 ## `23.12.14`
 
 - aktualizacja biblioteki [SuplaDevice](https://github.com/SUPLA/supla-device/blob/main/CHANGELOG.md#2312-2023-12-05)
@@ -9,5 +11,3 @@
 ## `23.07.8` (2023-07-22)
 
 - aktualizacja biblioteki SuplaDevice, w tym: _dodanie timer'ów dla przekaźników_
-
-## Ta wersja nie będzie już aktualizowana. [Zapraszam do nowej](https://github.com/lukfud/SuplaCustomFirmware/tree/main/LORATAP)
