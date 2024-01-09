@@ -9,3 +9,5 @@
 ## `23.07.8` (2023-07-22)
 
 - aktualizacja biblioteki SuplaDevice, w tym: _dodanie timer'ów dla przekaźników_
+
+## Ta wersja nie będzie już aktualizowana. [Zapraszam do nowej](https://github.com/lukfud/SuplaCustomFirmware/tree/main/LORATAP)
