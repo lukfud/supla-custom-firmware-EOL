@@ -1,3 +1,5 @@
+## Ta wersja nie będzie już aktualizowana!!
+
 ## `23.12.04` (2023-12-04)
 
 - aktualizacja biblioteki SuplaDevice
