@@ -2,7 +2,20 @@
 Plik: irrigation_esp32_v23.08.4.bin - płytki 8 i 10 przekaźników,
       irrigation_esp32-s3_v23.08.4.bin - 14 przekaźników
 ```
+## `24.05.26`
 
+- **aktualizacja biblioteki**
+
+- **pushover**
+
+  aktualizacja certyfikatu SSL
+
+- **podlewa.cz / crontab**
+
+  zmiana statusu na "odblokowany", kiedy sterownik utracił połączenie z serwerem a nadszedł czas uruchomienia cyklu z wewnętrznego harmonogramu
+  
+  wydłużenie interwału odpytywania serwera do max. 6 godzin
+  
 ## `23.08.4` (2023-08-15)
 
 - poprawki błędów
