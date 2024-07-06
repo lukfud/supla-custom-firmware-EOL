@@ -1,4 +1,4 @@
-## Ta wersja nie będzie już aktualizowana. [Zapraszam do nowej](https://github.com/lukfud/SuplaCustomFirmware/tree/main/LORATAP)
+## Ta wersja nie będzie już aktualizowana. [Zapraszam do nowej](https://github.com/lukfud/SuplaCustomFirmware/tree/main/LORATAP) - tylko nowa instalacja.
 
 ## `23.12.14`
 
